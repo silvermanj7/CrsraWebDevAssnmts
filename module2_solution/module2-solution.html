@@ -4,19 +4,37 @@
     <meta charset="utf-8">
     <!--meta http-equiv="X-UA-Compatible" content="IE=edge"--> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	
     <!--title>Bootstrap Starter Page</title> writing my own CSS is too fun anyways :p
     <link rel="stylesheet" href="css/bootstrap.min.css"-->
-    <link rel="stylesheet" href="css/stylez.css">
+    <link rel="stylesheet" href="stylez.css">
+	<style>
+		@media(max-width:767px){#d1,#d2,#d3 {width:100%;}}	
+		@media(max-width:991px) and (min-width:768px){#d1,#d2 {width:50%;}#d3{width:100%;}}
+		@media(min-width:992px){#d1,#d2,#d3 {width:33.33%;}}
+
+	</style>
   </head>
 <body>
-    
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4">Col 1</div>
-      <div>Col 2</div>
-      <div>Col 3</div>
-    </div>
-  </div>
+    <h1>Our Menu</h1>
+	
+      <div id="d1"><section id="s1">Fish</section><p id="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+							</p></div>
+      <div id="d2"><section id="s2">Chicken</section><p id="p2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+							</p></div>
+      <div id="d3"><section id="s3">Beef</section><p id="p3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+							</p></div>
+
+
 
  
 </body>
