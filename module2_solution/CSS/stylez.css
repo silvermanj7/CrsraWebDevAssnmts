@@ -4,7 +4,7 @@
 body{font-family: Arial, Helvetica, sans-serif;color:white;font-size:em;margin:15px;position:relative;box-sizing:border-box;size:100%;}
 h1{text-align:center;margin-top:50px;color:purple;font-size:1.75em;margin-bottom:50px;text-shadow:-10px 10px 7px #567537;}
 #d1,#d2,#d3,#d4{float:left;box-sizing:border-box;}
-section{animation:corner 3s infinite;position:absolute;right:-1px;top:9px;font-size:1.25em;border:black 1px outset;padding:5px;text-align:center;margin-top:-10px;display:inline-block;}
+section{animation:corner 3s infinite;position:absolute;right:-1px;top:9px;font-size:1.25em;border:black 1px outset;padding:5px;text-align:center;margin-top:-10px;}
 p{position:relative;clear:right;margin-right:auto;margin-left:auto;padding:15px;}
 
 #d1>#divine{background-color:#265344;}
